@@ -36,7 +36,7 @@ public class ApiNotesApplication extends SpringBootServletInitializer {
 						.termsOfService("http://swagger.io/terms/")
 						.license(new License().name("Apache 2.0").url("http://springdoc.org")))
 				.addServersItem(new Server().url("http://localhost:8080").description("Base URL"))
-				//.addServersItem(new Server().url("https://personapi-test.herokuapp.com/").description("Heroku URL"))
+				.addServersItem(new Server().url("https://api-anotacoes.up.railway.app/").description("Railway base URL"))
 				.externalDocs(new ExternalDocumentation().description("Saiba mais em").url("http://swagger.io"));
 	}
 }

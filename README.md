@@ -11,9 +11,18 @@ Esta API fornece os endpoints necessários para gerenciar anotações em um apli
 - Criação de modelo de dados para o mapeamento de entidades em bancos de dados;
 - Desenvolvimento de operações de gerenciamento das anotações CRUD (Cadastro, leitura, atualização e remoção de anotações do sistema).
 - API desenvolvida orientada ao padrão arquitetural REST.
-- Implantação do sistema na nuvem através do [Render][render].
+- Implantação do sistema na nuvem através do [Railway][railway].
 
 ---
+
+## URL do projeto e documentação Swagger na nuvem
+```
+https://api-anotacoes.up.railway.app
+```
+
+```
+https://api-anotacoes.up.railway.app/swagger-ui/index.html
+```
 
 ## Endpoints
 
@@ -129,8 +138,8 @@ Esta API fornece os endpoints necessários para gerenciar anotações em um apli
 - Sua IDE favorita, utilizei o Intellj IDEA Community Edition.
 - Controle de versão GIT.
 - Conta no [GitHub][github] para o versionamento do seu projeto online.
-- Conta no [Render][render] para o deploy do projeto na nuvem.
+- Conta no [Railway][railway] para o deploy do projeto na nuvem.
 
 
-[render]: https://render.com/
+[railway]: https://railway.com/
 [github]: https://github.com/
