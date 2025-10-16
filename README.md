@@ -24,6 +24,10 @@ https://api-anotacoes.up.railway.app
 https://api-anotacoes.up.railway.app/swagger-ui/index.html
 ```
 
+ > #### Atualização: 
+ > 
+ >> Esse projeto não está mais disponível em nuvem, pois o uso gratuito da ferramenta Railway expirou.
+
 ## Endpoints
 
 ### 1. **Listar Todas as Anotações**
