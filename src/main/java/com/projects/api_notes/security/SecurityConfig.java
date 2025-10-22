@@ -43,6 +43,7 @@ public class SecurityConfig {
                 .addFilterBefore(securityFilter, AuthorizationFilter.class)
                 .authorizeHttpRequests(authorize -> authorize
                         .requestMatchers(HttpMethod.POST, "/login").permitAll()
+                        .requestMatchers(HttpMethod.GET, "/swagger-ui.html", "/swagger-ui/**", "/v3/api-docs/**").permitAll()
                         .requestMatchers(HttpMethod.DELETE, "/api/notes/**").hasRole("ADMIN")
                         .requestMatchers(HttpMethod.POST, "/api/notes").hasAnyRole("USER", "ADMIN")
                         .anyRequest().authenticated())
