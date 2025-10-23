@@ -128,7 +128,6 @@ Esta API fornece os endpoints necessários para gerenciar anotações em um apli
 - Sua IDE favorita, utilizei o Intellj IDEA Community Edition.
 - Controle de versão GIT.
 - Conta no [GitHub][github] para o versionamento do seu projeto online.
-- Conta no [Railway][railway] para o deploy do projeto na nuvem.
 
 
 [railway]: https://railway.com/
